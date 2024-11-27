@@ -9,4 +9,8 @@ app.get("/",(req,res)=>{
 app.get("/endpointSofi",(req,res)=>{
     res.send("El endpoint de Sofi")
 })
+
+app.get("/elotroendpoint",(req,res)=>{
+    res.send("El endpoint que tengo que hacer")
+})
 app.listen(PORT,()=>console.log("Servidor levantaoooOHHH en el puerto: "+ PORT))
